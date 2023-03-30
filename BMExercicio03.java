@@ -14,8 +14,8 @@ public class BMExercicio03 {
         System.out.println("A soma do preco dos itens é de " + custoTotalDosItens);
 
         // letra D
-        final double taxa = 8.25 / 100;
-        double taxaCalculada = custoTotalDosItens * taxa;
+        final double TAXA = 8.25 / 100;
+        double taxaCalculada = custoTotalDosItens * TAXA;
         double taxaTotal = taxaCalculada + custoTotalDosItens;
         System.out.printf("A taxa cobrada será de %.2f e somada ao valor do custo total dos itens será de %.2f.\n", taxaCalculada, taxaTotal);
 
